@@ -1,1 +1,4 @@
 *.tf text eol=lf
+*.tfstate text eol=lf
+*.tfstate.backup text eol=lf
+*.hcl text eol=lf
