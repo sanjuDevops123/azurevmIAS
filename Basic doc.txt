@@ -1,0 +1,3 @@
+This is for best free Azure terraform full course : https://www.youtube.com/watch?v=lH3KT9RUEOA&list=PLLc2nQDXYMHowSZ4Lkq2jnZ0gsJL3ArAw
+
+This is for AWS best Practice terraform : https://www.youtube.com/watch?v=fgp-t5SqQmM
