@@ -46,14 +46,14 @@ resource "azurerm_network_security_rule" "inbound_rule_443" {
   network_security_group_name = azurerm_network_security_group.TestNSG.name
 }
 
-resource "azurerm_network_security_rule" "inbound_rule_3000_3010" {
-  name                        = "Allow-application_port-range-3000-3010"
+resource "azurerm_network_security_rule" "inbound_rule_3007" {
+  name                        = "Allow-application_port-range-3007"
   priority                    = 110
   direction                   = "Inbound"
   access                      = "Allow"
   protocol                    = "Tcp"
   source_port_range           = "*"
-  destination_port_range      = "3000-3010"
+  destination_port_range      = "3007"
   source_address_prefix       = "*"
   destination_address_prefix  = "*"
   resource_group_name         = azurerm_resource_group.TestRG.name

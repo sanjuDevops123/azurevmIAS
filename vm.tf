@@ -73,4 +73,14 @@ resource "azurerm_linux_virtual_machine" "UtilstopVM" {
   disable_password_authentication = false
 
   depends_on = [azurerm_network_interface.TestNIC]
+  
+  # Add the tags block
+  tags = {
+    Name        = "Utilstop"
+    Environment = "test"
+    Createdby   = "terraform"
+    Status      = "yet to use"
+    Owner       = "San"
+  }
+  
 }
